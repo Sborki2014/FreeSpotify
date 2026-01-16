@@ -1,0 +1,79 @@
+body {
+    background-color: #03270B;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+}
+button:hover{
+    background: #145e24;
+}
+header{
+    display: flex;
+    justify-content: center;
+    color: white;
+    
+}
+.header-left button{
+    background-color: #26973F;
+    width: 378px;
+    padding: 26px;
+    border: none;
+    text-align: left;
+    clip-path: polygon(0 0, 80% 0%, 100% 100%, 0% 100%);
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    color: white;
+}
+.header-right{
+    background-color: #26873B;
+    text-align: center;
+    width: 1208px;
+    padding: 26px;
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 10% 100%);
+    margin-left: -130px;
+    letter-spacing: 10px;
+}
+
+.searchbox{
+    justify-content: center;
+    display: flex;
+    padding-top: 10px;
+    margin-right: 736px;
+}
+.searchbox input{
+    padding: 23px;
+    border: none;
+    width: 568px;
+    background-color: #26973F;
+    color: white;
+    font-size: 20px;
+}
+.searchbox button{
+    padding: 23px;
+    border: none;
+}
+.searchbox-leftbutton{
+    background-color: #26973F;
+    color: white;
+    font-size: 20px;
+}
+.searchbox-rightbutton{
+    background-color: #26873B;
+    width: 180px;
+    color: white;
+    clip-path: polygon(25% 0, 100% 0, 100% 100%, 0 100%);
+    margin-left: -46px;
+    font-size: 20px;
+}
+.maincontainer {
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+}
+.maincontainer-left {
+    
+}
+.tracklist {
+
+}
+.track-player {
+}
